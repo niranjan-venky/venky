@@ -1,0 +1,93 @@
+/* Display iframes using flex */
+
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <title>iframe</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    </head>
+    <style>
+        .container-1 div{
+            color: brown;
+            font-size: large;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .container-2 div{
+            color: rgb(132, 0, 255);
+            font-size: large;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .container-3 div{
+            color: darkgreen;
+            font-size: large;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .container-1{
+            display: flex;
+            justify-content: space-around;
+         }
+         .container-2{
+             display: flex;
+             justify-content: space-around;
+         }
+         .container-3{
+             display: flex;
+             justify-content: space-around;
+        }
+    </style>
+    <body> 
+      <div class="container-1">
+        <div class="iframe-1">
+            <h3>YouTube One</h3>
+            <iframe width="200" height="200" src="https://www.youtube.com/embed/zIyugZdXOzE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p> 10 cool gadgets buy on amazon </p>
+        </div>
+        <div class="iframe-2">
+           <h3>YouTube-Two</h3>
+           <iframe width="200" height="200" src="https://www.youtube.com/embed/FtmkE6VT55Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+           <p>Best laptop buying guide</p>
+        </div>
+        <div class="iframe-3">
+           <h3>YouTube-Three</h3>   
+           <iframe width="200" height="200" src="https://www.youtube.com/embed/wIjREPQ3Cs8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+           <p> 12 amazing new products</p>
+        </div>
+        
+      </div>  
+        <div class="container-2">
+            <div class="iframe-4">
+               <h3>YouTube-Four</h3>
+               <iframe width="200" height="200" src="https://www.youtube.com/embed/dEjvADCyGBY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p>EPCET Tour-1</p>            </div>
+            <div class="iframe-5">
+                <h3>YouTube-Five</h3>
+                <iframe width="200" height="200" src="https://www.youtube.com/embed/Np5MSk4qXFQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <p>EPCET Tour-2</p>
+             </div>
+            <div class="iframe-6">
+                <h3>YouTube-Six</h3>
+                <iframe width="200" height="200" src="https://www.youtube.com/embed/6rj3vVDFxFI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <p>EPCET Tour-3</p>
+            </div>
+        </div>
+          <br>
+        <div class="container-3">
+            <div class="iframe-7">
+              <h3>YouTube-Seven</h3>
+              <iframe width="200" height="200" src="https://www.youtube.com/embed/UGwSNBGNCp0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <p>Conert image to text</p>
+            </div>
+            <div class="iframe-8">
+                <h3>YouTube-Eight</h3>
+                <iframe width="200" height="200" src="https://www.youtube.com/embed/uOtpQLumUxs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <p>EPCET Tour-4</p>
+            </div>
+            <div class="iframe-9">
+                <h3>YouTube-Nine</h3>        
+                <iframe width="200" height="200" src="https://www.youtube.com/embed/9fqfg9D6DxE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <p>Cloud based solutions</p>
+            </div>    
+        </div>
+    </body>
+</html>
